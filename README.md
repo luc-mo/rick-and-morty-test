@@ -1,4 +1,3 @@
-`
 # Rick and Morty Character Filter
 
 Este proyecto es una prueba que consiste en crear una API GraphQL en el backend para consumir la API oficial de Rick and Morty. El frontend utiliza Next.js para mostrar una lista de personajes de Rick and Morty que son humanos.
