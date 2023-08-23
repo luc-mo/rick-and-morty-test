@@ -1,0 +1,26 @@
+:root {
+  --navbar-height: 116px;
+  --characters-height: calc(100vh - var(--navbar-height));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100vh;
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Inter', sans-serif;
+  scrollbar-gutter: always;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
