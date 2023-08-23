@@ -84,4 +84,4 @@ pnpm start
 
 ## Autor
 
-Luciano Morales
+[Luciano Morales](https://github.com/luc-mo)
