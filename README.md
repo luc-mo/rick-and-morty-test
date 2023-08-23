@@ -12,7 +12,7 @@ El proyecto utiliza una estructura monorepo con las carpetas `frontend` y `backe
 ## Requisitos Previos
 
 - Node.js >= 16.x
-- pnpm >= 6.x
+- pnpm >= 8.x
 
 ## Instalación
 
