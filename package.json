@@ -1,0 +1,17 @@
+{
+  "name": "rick-and-morty",
+  "author": "Luciano Morales",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "pnpm --recursive build",
+    "test": "pnpm --recursive test",
+    "lint": "rome check . --apply",
+    "format": "rome format --write .",
+    "lint:check": "rome check .",
+    "format:check": "rome format ."
+  },
+  "devDependencies": {
+    "rome": "12.1.3",
+    "vitest": "0.34.2"
+  }
+}
