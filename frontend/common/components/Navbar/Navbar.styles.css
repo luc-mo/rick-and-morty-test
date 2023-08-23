@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: var(--navbar-height);
+  padding: 1rem 2rem;
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar__title {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.navbar__title--big {
+  font-size: 2.2rem;
+}
+
+.navbar__title--small {
+  font-size: 1.2rem;
+}
+
+.navbar__link {
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar__link:hover {
+  opacity: 1;
+}

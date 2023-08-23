@@ -1,0 +1,19 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: var(--characters-height);
+  padding: 2rem;
+}
+
+.characters__title {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.characters__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.6rem;
+  margin-bottom: 2rem;
+}
