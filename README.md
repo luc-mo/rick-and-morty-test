@@ -85,5 +85,3 @@ pnpm start
 ## Autor
 
 Luciano Morales
-
-`;
