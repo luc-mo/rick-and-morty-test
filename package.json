@@ -3,6 +3,8 @@
   "author": "Luciano Morales",
   "version": "1.0.0",
   "scripts": {
+    "start": "pnpm --recursive start",
+    "dev": "pnpm --recursive dev",
     "build": "pnpm --recursive build",
     "test": "pnpm --recursive test",
     "lint": "rome check . --apply",
